@@ -270,7 +270,7 @@ public class TestOP extends LinearOpMode {
             } else {
                 intakeToShooterMotor.setPower(0);
             }
-            intakeToShooterMotor.setPower(1);
+
             if (gamepad1.xWasPressed()) {
                 intakeToShooterDirectionToggle = !intakeToShooterDirectionToggle;
                 if (intakeToShooterDirectionToggle) intakeToShooterMotor.setDirection(DcMotorSimple.Direction.FORWARD);
